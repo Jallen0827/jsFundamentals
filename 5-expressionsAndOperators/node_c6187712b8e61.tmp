@@ -1,0 +1,13 @@
+let point = 21445;
+
+let point2 = point.toString().split('');
+for (po of point2){
+    let nu = [];
+    nu = point2.push(Number(po));
+    console.log(nu);
+}
+console.log(point2.sort().reverse());
+
+
+
+

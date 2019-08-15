@@ -10,7 +10,7 @@ b();
 
  }
 
- var a = 'This is not hoisted';
+ var a = 8;
 
  //Take away: Functions get hoisted but variables don't!!
  //Hoisting does not exist. It is an illusion. Code doesn't actually get moved. 

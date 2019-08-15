@@ -1,6 +1,6 @@
 // Switch
 
-let friend = 'Autmn';
+let friend = 'Autumn';
 
 switch (friend) {
     case 'Autumn':
@@ -12,8 +12,7 @@ switch (friend) {
     case 'Alex': 
         console.log('Hey Alex')
         break;
-    default:
-        console.log(`I'm sorry, ${friend}, but do I know you?`) //${variable_name}
+     //${variable_name}
 }
 
 let dessert = ['pie', 'cake', 'ice cream', 'tea'];

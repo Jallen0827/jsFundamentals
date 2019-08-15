@@ -33,11 +33,12 @@ let netflix = {
     // console.log('All data: ', netflix);
     // console.log('Just season info: ', netflix.season2.seasonInfo.episodeInfo);
     // console.log(netflix.season2.seasonInfo.episodeInfo[1].episodeName);
-    console.log(Object.values(netflix.season2.seasonInfo.episodeInfo[2]));
+    // console.log(Object.values(netflix.season2.seasonInfo.episodeInfo[2]));
+    console.log(netflix.season1.seasonInfo.episodeInfo[0].episode);
 
-    let netArray = netflix.season2.seasonInfo.episodeInfo;
-    for (net of netArray){
-        // let string = `The episode# ${net[0]} and episode title is ${net[1]}...`
-        console.log(string);
-    }
+    // let netArray = netflix.season2.seasonInfo.episodeInfo;
+    // for (net of netArray){
+    //     // let string = `The episode# ${net[0]} and episode title is ${net[1]}...`
+    //     console.log(string);
+    // }
 

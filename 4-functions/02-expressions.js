@@ -42,7 +42,8 @@
 // fizzBuzz(100);
 
 let fizzBuzz = (num)=>{
-    for(let i=1; i<num;i++){(i%15==0)?console.log('FizzBuzz')
+    for(let i=1; i<num;i++){
+    (i%15==0)?console.log('FizzBuzz')
     :(i%3==0)?console.log('Fizz')
     :(i%5==0)?console.log('Buzz')
     :console.log(i)}
